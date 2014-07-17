@@ -1,0 +1,176 @@
+/*---------------------------------
+	BUTTONS
+---------------------------------*/
+
+#wrapper .buttons
+{
+	zoom:1; 
+	clear: both;
+}
+
+#wrapper .gbutton
+{
+
+	
+	padding: 0;
+	margin: 5px 5px 5px 0;
+
+}
+
+
+#wrapper .sidebyside .gbutton
+{
+
+	float: left;  
+}
+
+#wrapper .bottompad
+{
+	padding-bottom: 10px;
+}
+
+#wrapper .topmargin
+{
+	margin-top: 1.12em;
+}
+
+#wrapper .buttons-right .gbutton
+{
+	float: right;
+}
+
+#wrapper .stacked .gbutton
+{
+	clear: both;
+}
+
+#wrapper .stacked .gbutton:after 
+{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    padding: 0;
+    margin:0; 
+}
+
+
+#wrapper .gbutton .button-left
+{
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: url(/common/images/buttons/css/button-blue-borders.gif) no-repeat top left;
+	height: 30px;
+	width: 6px;
+	cursor: pointer;
+}
+
+#wrapper .gbutton-secondary .button-left
+{
+	background: url(/common/images/buttons/css/button-white-borders.gif) no-repeat top left;
+}
+
+#wrapper .gbutton-existing .button-left
+{
+	background: url(/common/images/buttons/css/button-existing-borders.gif) no-repeat top left;
+}
+
+
+#wrapper .gbutton .button-middle
+{
+	float: left;
+	margin: 0;
+	padding: 0px 0px 0 0px;;
+	background: url(/common/images/buttons/css/button-blue-middle.gif) repeat-x top left;
+	height: 30px;
+}
+
+#wrapper .gbutton-secondary .button-middle
+{
+	background: url(/common/images/buttons/css/button-white-middle.gif) repeat-x top left;
+}
+
+#wrapper .gbutton-existing .button-middle
+{
+	background: url(/common/images/buttons/css/button-existing-middle.gif) repeat-x top left;
+}
+
+#wrapper .gbutton .button-middle a
+{
+	display: block;
+	color: #FFFFFF;	
+	margin: 1px 3px 1px 3px;
+	padding: 3px;
+
+}
+
+/*---------------------------------
+	INPUT BUTTON OVERRIDE
+----------------------------------- */
+#wrapper .gbutton .button-middle input {
+	border: 0;	
+	background-color: transparent;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.0em;
+   	margin: 1px 3px;
+    padding: 3px;	
+	cursor: pointer;
+}
+
+
+#wrapper .gbutton-secondary .button-middle a
+{
+	color: #373abe;
+}
+
+#wrapper .gbutton-existing .button-middle a
+{
+	color: #FFFFFF;
+}
+
+#wrapper .gbutton .button-middle a:hover
+{
+	color: #B8DCFB;
+	text-decoration: none;
+
+}
+
+#wrapper .gbutton-secondary .button-middle a:hover
+{
+	color: #97ccf9;
+}
+
+#wrapper .gbutton-existing .button-middle a:hover
+{
+	color: #B8DCFB;
+}
+
+#wrapper .gbutton .button-right
+{
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: url(/common/images/buttons/css/button-blue-borders.gif) no-repeat top right;
+	height: 30px;
+	width: 6px;
+	cursor: pointer;
+}
+
+#wrapper .gbutton-secondary .button-right
+{
+	background: url(/common/images/buttons/css/button-white-borders.gif) no-repeat top right;
+}
+
+#wrapper .gbutton-existing .button-right
+{
+	background: url(/common/images/buttons/css/button-existing-borders.gif) no-repeat top right;
+}
+
+
+
+
+

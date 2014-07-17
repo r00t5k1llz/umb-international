@@ -1,0 +1,2 @@
+[15-Sep-2013 06:00:39] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'stiban_user'@'localhost' (using password: YES) in /home2/stiban/public_html/_panel/includes/database.php on line 10
+[15-Sep-2013 06:00:39] PHP Warning:  mysql_select_db(): supplied argument is not a valid MySQL-Link resource in /home2/stiban/public_html/_panel/includes/database.php on line 11

@@ -1,0 +1,178 @@
+body {
+	margin:0;
+	padding:0;
+    font-family: verdana, helvetica, arial, sans-serif;
+    font-size: 11px;
+}
+
+a {text-decoration: none; color: #000}
+a:hover {text-decoration: underline; color: #dd8d3f;}
+
+.pageTopBar {
+	height: 10px;
+	background: #93C360;
+}
+
+.internetBanking {
+    width: 200px;
+    float: left;
+    border-radius:0 0 6px 6px;
+    background: #93C360;
+    color: #fff;
+    text-align: center;
+    font-family: helvetica, arial, verdana, sans-serif;
+    padding: 0 0 5px 0;
+}
+
+.internetBanking a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    padding-top: 20px;
+    width: 760px;
+    height: 60px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.navContainer {
+    width: 100%;
+    background: #000000;
+}
+
+.nav {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.footer {
+    width: 100%;
+    background: #ddd;
+    border-top: #8f8f8f;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+    height: 190px;
+}
+
+ul#topnav {
+    margin: 0; padding: 0;
+    float: left;
+    width: 960px;
+    list-style: none;
+    position: relative; /*--Set relative positioning on the unordered list itself - not on the list item--*/
+    font-size: 1.2em;
+    background: url(img/topnav_s.gif) repeat-x;
+}
+ul#topnav li {
+    float: left;
+    margin: 0; padding: 0;
+    border-right: 1px solid #555; /*--Divider for each parent level links--*/
+}
+ul#topnav li a {
+    padding: 10px 15px;
+    display: block;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+ul#topnav li:hover { background: #0c477b;}
+
+ul#topnav li span {
+    float: left;
+    padding: 15px 0;
+    position: absolute;
+    left: 0; top:35px;
+    display: none; /*--Hide by default--*/
+    width: 960px;
+    background: #0c477b;
+    color: #fff;
+    /*--Bottom right rounded corner--*/
+    -moz-border-radius-bottomright: 5px;
+    -khtml-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    /*--Bottom left rounded corner--*/
+    -moz-border-radius-bottomleft: 5px;
+    -khtml-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+}
+ul#topnav li:hover span { display: block; } /*--Show subnav on hover--*/
+ul#topnav li span a { display: inline; } /*--Since we declared a link style on the parent list link, we will correct it back to its original state--*/
+ul#topnav li span a:hover {text-decoration: underline;}
+
+.pageContent {
+    width: 960px;
+    margin: 15px auto 15px;
+}
+
+.pageContent .left {
+    width: 700px;
+    float: left;
+}
+
+.pageContent .right {
+    width: 240px;
+    float: left;
+    padding-left: 20px;
+}
+
+.right .base-rate {
+    background: #93C360;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0 20px;
+}
+
+.right .base-rate h3{color: #fff;}
+.right .base-rate h1{color: #fff;}
+
+.bcg {
+    
+    height: 40px;
+    padding-top: 80px;
+    font-weight: bold;
+    padding-left: 10px;
+    font-family: 'Volkhov', serif;
+    font-size: 27px;
+    color: #fff;
+}
+
+.bg_about{background: url('img/about.jpg');}
+.bg_contact{background: url('img/contact.jpg');}
+.bg_personal{background: url('img/personal1.jpg');}
+.bg_business{background: url('img/business.jpg');}
+.bg_interest{background: url('img/interest2.jpg');}
+.bg_trust{background: url('img/trust1.jpg');}
+.bg_index{background: url('img/trans_header.jpg');}
+
+.content {
+	width: 700px;
+}
+
+.blockA {
+	width: 200px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	height: 180px;
+    padding: 10px;
+}
+
+.blockB {
+	width: 200px;
+	float: left;
+	margin-top: 20px;
+	height: 180px;
+    padding: 10px;
+}
+
+.blockAdd {
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 0px 6px rgba(50, 50, 50, 1);
+-moz-box-shadow:    0px 0px 6px rgba(50, 50, 50, 1);
+box-shadow:         0px 0px 6px rgba(50, 50, 50, 1);
