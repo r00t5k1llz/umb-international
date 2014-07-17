@@ -1,0 +1,423 @@
+/*---------------------------------
+	GENERIC AND HOME
+----------------------------------- */
+.heropod h2 span {
+	background-color: #3C3FC2;
+}
+
+.servicepod h2 em,
+.salespod h2 em {
+	color: #3C3FC2;
+}
+
+.salespod .secondarypod {
+	background-color: #0099CC;
+}
+
+.salespod li.tertiary {
+	background-color: #E2E2F6;
+}
+
+.servicepod {
+	border: 1px solid #C3C4EB;
+}
+
+.generic h1, .generic h1 a  {
+	background-color: #3c3fc2;	
+}
+.home h1, .home h1 a {
+	background-color: #373ABE;
+}
+.generic .productinfopanel h3, .generic .productinfopanel h3 a, .generic .optionsContainer h2 {
+	color: #3c3fc2;	
+}
+
+.generic .optionsContainer .vpanelcontent li {
+	list-style-image:url(/common/images/options_panels/tick-generic.gif);
+}
+
+/*---------------------------------
+	END OF GENERIC AND HOME
+----------------------------------- */
+
+/*---------------------------------
+	EXISTING CUSTOMER
+----------------------------------- */
+.heropod-existing h2 span {
+	background-color: #F8680A;
+}
+
+.servicepod-existing h2 em,
+.salespod-existing h2 em {
+	color: #F8680A;
+}
+
+.salespod-existing .secondarypod {
+	background-color: #F8680A;
+}
+
+.salespod-existing li.tertiary {
+	background-color: #FEE8DA;
+}
+
+.servicepod-existing {
+	border: 1px solid #FEE8DA;
+}
+
+/*---------------------------------
+	END OF EXISTING CUSTOMER
+----------------------------------- */
+
+/*---------------------------------
+	ACCOUNTS
+----------------------------------- */
+.heropod-accounts h2 span {
+	background-color: #790397;
+}
+
+.servicepod-accounts h2 em,
+.salespod-accounts h2 em {
+	color: #790397;
+}
+
+.salespod-accounts .secondarypod {
+	background-color: #0099CC;
+}
+
+.salespod-accounts li.tertiary {
+	background-color: #E6D2ED;
+}
+
+.servicepod-accounts {
+	border: 1px solid #C3C4EB;
+}
+
+.accounts h1, .accounts h1 a {
+	background-color: #790397;
+}
+
+.accounts .productinfopanel h3, .accounts .productinfopanel h3 a, .accounts .optionsContainer h2 {
+	color: #790397;	
+}
+
+.accounts .optionsContainer .vpanelcontent li {
+	list-style-image:url(/common/images/options_panels/tick-accounts.gif);
+}
+
+/*---------------------------------
+	END OF ACCOUNTS
+----------------------------------- */
+
+/*---------------------------------
+	INSURANCE
+----------------------------------- */
+.heropod-insurance h2 span {
+	background-color: #8C041B;
+}
+
+.servicepod-insurance h2 em,
+.salespod-insurance h2 em {
+	color: #8C041B;
+}
+
+.salespod-insurance .secondarypod {
+	background-color: #8C041B;
+}
+
+.salespod-insurance li.tertiary {
+	background-color: #FECCD5;
+}
+
+.servicepod-insurance {
+	border: 1px solid #C3C4EB;
+}
+
+.insurance h1, .insurance h1 a {
+	background-color: #8c041b;
+}
+
+.insurance .productinfopanel h3, .insurance .productinfopanel h3 a, .insurance .optionsContainer h2 {
+	color: #8c041b;	
+}
+
+.insurance .optionsContainer .vpanelcontent li {
+	list-style-image:url(/common/images/options_panels/tick-insurance.gif);
+}
+
+/*---------------------------------
+	END OF INSURANCE
+----------------------------------- */
+
+/*---------------------------------
+	MORTGAGES
+----------------------------------- */
+.heropod-mortgages h2 span {
+	background-color: #1E9539;
+}
+
+.servicepod-mortgages h2 em,
+.salespod-mortgages h2 em {
+	color: #1E9539;
+}
+
+.salespod-mortgages .secondarypod {
+	background-color: #1E9539;
+}
+
+.salespod-mortgages li.tertiary {
+	background-color: #E1FAD2;	
+}
+
+.servicepod-mortgages {
+	border: 1px solid #C3C4EB;
+}
+
+.mortgages-estate h1, .mortgages-estate h1 a {
+	background-color: #1e9539;
+}
+
+.mortgages-estate .productinfopanel h3, .mortgages-estate .productinfopanel h3 a, .mortgages-estate .optionsContainer h2 {
+	color: #1e9539;	
+}
+
+.mortgages-estate .optionsContainer .vpanelcontent li {
+	list-style-image:url(/common/images/options_panels/tick-mortgages.gif);
+}
+
+/*---------------------------------
+	END OF MORTGAGES
+----------------------------------- */
+
+/*---------------------------------
+	SAVINGS
+----------------------------------- */
+.heropod-savings h2 span {
+	background-color: #0097D0;
+}
+
+.servicepod-savings h2 em,
+.salespod-savings h2 em {
+	color: #0097D0;
+}
+
+.salespod-savings .secondarypod {
+	background-color: #0097D0;
+}
+
+.salespod-savings li.tertiary {
+	background-color: #DCF0F9;	
+}
+
+.servicepod-savings {
+	border: 1px solid #C3C4EB;
+}
+
+.savings h1, .savings h1 a {
+	background-color: #0097d0;
+}
+
+.savings .productinfopanel h3, .savings .productinfopanel h3 a, .savings .optionsContainer h2 {
+	color: #0097d0;	
+}
+
+.savings .optionsContainer .vpanelcontent li {
+	list-style-image:url(/common/images/options_panels/tick-savings.gif);
+}
+
+/*---------------------------------
+	END OF SAVINGS
+----------------------------------- */
+
+/*---------------------------------
+	White Style
+----------------------------------- */
+
+.salespod-white h2 em {
+	color: #373ABE;
+}
+
+.salespod-white .primarypod h2, .salespod-white h2 a {
+  color: #1B1D5F;
+}
+
+.salespod-white .secondarypod {
+	background-color: #ffffff;
+}
+
+.salespod-white .secondarypod h3 {
+ color:#1B1D5F;
+ padding-left:0;
+}
+
+.salespod-white .secondarypod p.highlight {
+  background: transparent url(/common/images/backgrounds/highlight-star.gif) 0px 11px no-repeat;
+  padding: 10px 10px 0 20px;
+}
+
+.salespod-white li.tertiary {
+	padding-left:14px;
+	background: #ffffff url(/common/images/arrows/arrow_solid_transparent.gif) no-repeat scroll 0px 8px;
+}
+
+.salespod-white .secondarypod p, .salespod-white .secondarypod li, .salespod-white .secondarypod td {
+  color:#505050;
+  padding-left:0;
+}
+
+.salespod-white .secondarypod p a {
+  color:#373ABE;
+}
+
+/*---------------------------------
+	END OF White Style
+----------------------------------- */
+
+/*---------------------------------
+	Link pod
+----------------------------------- */
+.salespod-linkpod {
+  border: 2px solid #C3C4EB;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;	
+	border-radius: 10px;	
+	background-color: #f5f5fc;
+}
+
+.salespod-linkpod h2 em {
+	color:#373ABE;
+}
+
+.salespod-linkpod .primarypod {
+	margin:10px 10px 10px 10px;
+	color:#1B1D5F;
+}
+
+.salespod-linkpod .primarypod h2{
+  color: #1B1D5F;
+  width:206px;
+}
+
+.salespod-linkpod .primarypod h2.noicon {
+  color: #1B1D5F;
+  width:274px;
+}
+
+.salespod-linkpod h2 a {
+  color:#1B1D5F;
+}
+
+.salespod-linkpod .secondarypod , .salespod-linkpod li.tertiary {
+	background-color: #f5f5fc;
+}
+
+.salespod-linkpod .secondarypod h3 {
+ color:#1B1D5F;
+}
+
+.salespod-linkpod .secondarypod p, .salespod-linkpod .secondarypod li, .salespod-linkpod .secondarypod td {
+   color:#505050;
+}
+
+.salespod-linkpod .secondarypod p a {
+  color:#373ABE;
+}
+
+.salespod-linkpod  ul.tertiary {
+  padding-bottom:10px;
+}
+/*---------------------------------
+	END OF Link pod
+----------------------------------- */
+/*---------------------------------
+	Rewards Pink
+----------------------------------- */
+.heropod-rewardspink h2 span {
+	background-color: #ee3d8a;
+}
+
+.servicepod-rewardspink h2 em,
+.salespod-rewardspink h2 em {
+	color: #ee3d8a;
+}
+
+.salespod-rewardspink .secondarypod {
+	background-color: #ee3d8a;
+}
+
+.salespod-rewardspink li.tertiary {
+	background-color: #fce0ec;
+}
+
+.servicepod-rewardspink {
+	border: 1px solid #C3C4EB;
+}
+
+/*---------------------------------
+	END OF 	Rewards Pink
+----------------------------------- */
+/*---------------------------------
+		Rewards Gold
+----------------------------------- */
+.heropod-rewardsgold h2 span {
+	background-color: #BA8B00;
+}
+
+.servicepod-rewardsgold h2 em,
+.salespod-rewardsgold h2 em {
+	color: #BA8B00;
+}
+
+.salespod-rewardsgold .secondarypod {
+	background-color: #BA8B00;
+}
+
+.salespod-rewardsgold li.tertiary {
+	background-color: #f4ecd6;
+}
+
+.servicepod-rewardsgold {
+	border: 1px solid #C3C4EB;
+}
+
+/*---------------------------------
+	END OF Rewards Gold
+----------------------------------- */
+/*---------------------------------
+	HOLIDAYS
+----------------------------------- */
+.heropod-holiday h2 span {
+	background-color: #0B1E7F;
+}
+
+.servicepod-holiday h2 em,
+.salespod-holiday h2 em {
+	color: #0B1E7F;
+}
+
+.salespod-holiday .secondarypod {
+	background-color: #0B1E7F;
+}
+
+.salespod-holiday li.tertiary {
+	background-color: #D7D7ED;
+}
+
+.servicepod-holiday {
+	border: 1px solid #C3C4EB;
+}
+
+.holidays h1, .holidays h1 a {
+	background-color: #0b1e7f;
+}
+
+.holidays .productinfopanel h3, .holidays .productinfopanel h3 a, .holidays .optionsContainer h2 {
+	color: #0b1e7f;	
+}
+
+.holidays .optionsContainer .vpanelcontent li {
+	list-style-image:url(/common/images/options_panels/tick-holidays.gif);
+}
+
+/*---------------------------------
+	END OF HOLIDAYS
+----------------------------------- */

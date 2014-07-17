@@ -1,0 +1,7 @@
+[15-Sep-2013 06:01:40] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'stiban_user'@'localhost' (using password: YES)' in /home2/stiban/public_html/adminPanel/core/connect/database.php:4
+Stack trace:
+#0 /home2/stiban/public_html/adminPanel/core/connect/database.php(4): PDO->__construct('mysql:host=loca...', 'stiban_user', '@u10enticYES')
+#1 /home2/stiban/public_html/adminPanel/core/init.php(3): require_once('/home2/stiban/p...')
+#2 /home2/stiban/public_html/adminPanel/index.php(2): require('/home2/stiban/p...')
+#3 {main}
+  thrown in /home2/stiban/public_html/adminPanel/core/connect/database.php on line 4
